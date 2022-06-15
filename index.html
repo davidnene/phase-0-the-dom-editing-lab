@@ -1,1 +1,65 @@
 <!-- Write your code here! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Introduction to the DOM Lab</title>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <!--All our work for this lesson will go here-->
+    <h1>My HTML adventure</h1>
+    <p>
+        We're writing <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> markup to display in our <strong>browser</strong>. We're basically
+        telling the computers what to do. <em>Neat!</em>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Element name</th>
+                <th>Display value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="raw">
+                <td>h1</td>
+                <td>block</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>block</td>
+            </tr>
+            <tr>
+                <td>strong</td>
+                <td>inline</td>
+            </tr>
+            <tr>
+                <td>em</td>
+                <td>inline</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <div class="banner">
+          <h1>Hello!</h1>
+        </div>
+      
+        <div class="banner">
+          <h1>Sup?</h1>
+        </div>
+      
+        <div class="banner">
+          <h5>Tinier heading</h5>
+        </div>
+      </div>
+      <form id="form">
+        <label>Text field: <input type="number"></label>
+        <br><br>
+        <button type="submit">Submit form</button>
+      </form>
+      <p id="log"></p>
+  </body>
+</html>
